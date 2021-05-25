@@ -1,0 +1,1 @@
+# namepath.js
