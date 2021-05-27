@@ -144,8 +144,8 @@ export const stringPath =
 
 export const flatArgs =
   (fn) =>
-  (...args) =>
-    fn(...args.flat());
+  (source, args) =>
+    fn(source, ...args);
 
 const composeFn =
   (fn) =>
